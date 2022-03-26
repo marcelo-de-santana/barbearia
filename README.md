@@ -8,7 +8,9 @@ Requisitos necessários:
 - GIT
 
 Como Clonar o repositório
+
 1° - Entrena da pasta "/www/html/(APACHE)" ou "/htdocs(XAMPP)" via terminal ou prompt
+
 2° - Faça a configuração do seu usuário GIT:
   git config --global user.name "meu_usuario_git"
   git config --global user.email "meu_email_cadastrado"
