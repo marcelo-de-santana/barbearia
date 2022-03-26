@@ -9,7 +9,7 @@ Requisitos necessários:
 
 Como Clonar o repositório
 
-1° - Entrena da pasta "/www/html/(APACHE)" ou "/htdocs(XAMPP)" via terminal ou prompt
+1° - Entre na da pasta "/www/html/(APACHE)" ou "/htdocs(XAMPP)" via terminal ou prompt
 
 2° - Faça a configuração do seu usuário GIT:
 
