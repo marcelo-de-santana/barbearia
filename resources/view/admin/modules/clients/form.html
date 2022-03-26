@@ -1,0 +1,38 @@
+<h1>{{title}}</h1>
+
+<hr>
+    <a href="{{URL}}/admin/clients">
+        <button type="button" class="btn btn-warning">Cancelar</button>
+    </a>
+<hr>
+
+{{status}}
+
+<form method="post">
+
+    <div class="form-group">
+        <label for="nome">Nome</label> 
+        <input type="text" name="nome" id="nome" class="form-control" value="{{nome}}" placeholder="Gregorio da Silva Rodrigues" required>
+    </div>
+
+    <div class="form-group my-3">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" class="form-control" value="{{email}}" placeholder="gregorio.ssilva@gmail.com" required>
+    </div>
+
+    <div class="form-group my-3">
+        <label for="telefone">Telefone</label>
+    <input type="tel" name="telefone" id="telefone" class="form-control" value="{{telefone}}" placeholder="(061) 98765-4321">
+    </div>
+
+    <div class="form-group my-3">
+        <label for="senha">Nova senha</label>
+        <input type="password" name="senha" id="senha" class="form-control" placeholder="********" required>
+    </div>
+
+    <hr>
+    
+    <div class="form-group">
+        <button type="submit" class="btn btn-success">Gravar</button>
+    </div>
+</form>

@@ -1,0 +1,58 @@
+{{status}}
+
+<div class="alert alert-primary" role="alert">
+    Seus dados estão seguros aqui
+</div>
+
+<div class="container">
+    <form method="post">
+
+            <div class="form-group row">
+                <b>Dados pessoais</b>
+            </div>
+            <div class="row mb-4">
+                <div class="col">
+                    <label class="col-form-label">Nome<b style="color: red;">*</b></label>
+                    <input type="text" class="form-control" name="nome" value="{{nome}}" required>
+                </div>
+                <div class="col">
+                    <label class="col-form-label">E-mail</label>
+                    <input type="email" class="form-control-plaintext" value="{{email}}" readonly disabled>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col">
+                    <label class="col-form-label">Telefone</label>
+                    <input type="tel" class="form-control col-sm-3" name="telefone" value="{{telefone}}">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col">
+                    <label class="col-form-label">Senha atual<b style="color: red;">*</b></label>
+                    <input type="password" class="form-control col-sm-3" name="senha" placeholder="******" minlength="6" maxlength="20" required>
+                    <small class="form-text text-muted">Deve ter entre 6 e 20 caracteres</small>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col">
+                    <label class="col-form-label">Nova senha</label>
+                    <input type="password" class="form-control col-sm-3" name="nova-senha" placeholder="******" minlength="6" maxlength="20">
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col">
+                    <label class="col-form-label">Confirmar nova senha</label>
+                    <input type="password" class="form-control col-sm-3" name="nova-senha-confirma" placeholder="******" minlength="6" maxlength="20">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <button type="submit" class="btn btn-outline-primary">Confirmar</button>
+                    <a href="{{URL}}/agenda">
+                        <button type="button" class="btn btn-outline-warning">Cancelar</button>
+                    </a>
+                </div>
+            </div>
+    </form>
+</div>

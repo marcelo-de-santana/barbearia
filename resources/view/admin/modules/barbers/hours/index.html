@@ -1,0 +1,42 @@
+{{status}}
+
+<h1>Definir Horários</h1>
+<p>Horários disponíveis para atendimento</p>
+
+<hr>
+
+<div class="d-flex bd-highlight">
+    <div class="mr-auto p-2 bd-highlight">
+        <a href="{{URL}}/admin/barbers">
+            <button type="button" class="btn btn-warning">Voltar</button>
+        </a>
+    </div>
+    <form class="form-inline" method="post">
+        <input type="time" class="form-control mr-2" name="horario" value="07:00">
+        <button type="submit" class="btn btn-success">Inserir</button> 
+    </form>
+</div>
+
+
+<hr>
+
+<table class="table table-light table-striped" style="color: black;">
+    <thead>
+        <tr>
+            <th>Horários disponíveis para atendimento</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <div class="d-flex flex-wrap">
+                    {{itens}}
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+
+

@@ -1,0 +1,28 @@
+<h1>Barbeiros</h1>
+<p>Funcionários disponíveis para atendimento</p>
+
+
+<hr>
+
+{{status}}
+
+<table class="table table-light table-striped" style="color: black;">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th style="width: 500px;">Horários disponíveis</th>
+            <th style="width: 310px; text-align: center;">Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{itens}}
+    </tbody>
+</table>
+
+{{pagination}}
+
+<hr>
+    <a href="{{URL}}/admin/barbers/new">
+        <button type="button" class="btn btn-success float-right">Cadastrar barbeiro</button>
+    </a>

@@ -1,0 +1,21 @@
+<h1>{{title}}</h1>
+
+<hr>
+    <a href="{{URL}}/admin/barbers">
+        <button type="button" class="btn btn-warning">Cancelar</button>
+    </a>
+<hr>
+
+{{status}}
+
+<form method="post">
+
+    <div class="form-group">
+        <label for="nome">Nome</label> 
+        <input type="text" name="nome" id="nome" class="form-control" value="{{nome}}" placeholder="Jango Feet" required>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-success">Gravar</button>
+    </div>
+</form>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Ícone da página -->
+    <link rel="icon" href="{{URL}}/resources/css/imagens/logo.jpg" type="imagem/jpg">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{URL}}/resources/css/style.css" />
+    <title>Login | Administrador</title>
+</head>
+
+<body style="
+    background-image: url({{URL}}/resources/css/imagens/fundo.jpg)!important;
+    background-repeat: no-repeat !important;
+    background-size:cover;
+    background-attachment: scroll; 
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;">
+
+    <main class="container">
+        {{status}}
+        <h2>Login</h2>
+        <form method="post">
+
+            <div class="input-field">
+                <input type="email" name="email" id="email" placeholder="Email" required autofocus />
+                <div class="underline"></div>
+            </div>
+
+            <div class="input-field mb-4">
+                <input type="password" name="senha" id="senha" placeholder="Senha" required>
+                <div class="underline"></div>
+            </div>
+
+            <div class="input-field">
+                <input type="submit" value="Acessar">
+            </div>
+
+        </form>
+
+    </main>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>

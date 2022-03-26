@@ -1,0 +1,17 @@
+<p><b>Selecione o dia e o barbeiro</b></p>
+<form method="get">
+    <div class="form-row align-items-center">
+        <div class="col-auto">
+            <input type="date" class="form-control" name="data" value={{data-busca}} min={{data-hoje}} max={{data-max}} required>
+        </div>
+        <div class="col-auto">
+            <select class="form-control" name="barbeiro" required>
+                <option value="" selected>Definir barbeiro</option>
+                {{options}}
+            </select>
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-success" >Buscar</button>
+        </div>
+    </div>
+</form>

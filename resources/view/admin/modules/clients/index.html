@@ -1,0 +1,28 @@
+<h1>Clientes</h1>
+<p>Clientes cadastrados no sistema</p>
+
+<hr>
+
+{{status}}
+
+<table class="table table-light table-striped" style="color: black;">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>E-mail</th>
+            <th>Telefone</th>
+            <th style="width: 170px; text-align: center;">Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{itens}}
+    </tbody>
+</table>
+
+{{pagination}}
+
+<hr>
+<a href="{{URL}}/admin/clients/new">
+    <button type="button" class="btn btn-success float-right">Cadastrar cliente</button>
+</a>

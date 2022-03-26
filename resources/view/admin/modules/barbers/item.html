@@ -1,0 +1,22 @@
+<tr>
+    <td>{{id}}</td>
+    <td>{{nome}}</td>
+    <td>
+        <div class="d-flex flex-wrap">
+            <div class="p-1">
+                {{box}}
+            </div> 
+        </div>
+    </td>
+    <td>
+        <a href="{{URL}}/admin/barbers/{{id}}/hours">
+            <button type="button" class="btn btn-outline-info mb-1">Definir horários</button>
+        </a>
+        <a href="{{URL}}/admin/barbers/{{id}}/edit">
+            <button type="button" class="btn btn-outline-primary mb-1">Editar</button>
+        </a>
+        <a href="{{URL}}/admin/barbers/{{id}}/delete">
+            <button type="button" class="btn btn-outline-danger mb-1">Excluir</button>
+        </a>
+    </td>
+</tr>

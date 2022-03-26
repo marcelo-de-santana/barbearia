@@ -1,0 +1,29 @@
+<div class="d-flex justify-content-between">
+    <div class="col">
+        <h1>Agenda de horários</h1>
+        <p>Todos atendimentos agendados para o dia <b>{{dia}}</b></p>
+    </div>
+
+    <form method="get">
+        <input type="date" class="form-control mb-2" name="data" value="{{data}}">
+        <button type="submit" class="btn btn-success float-right">Buscar</button>
+    </form>
+</div>
+<hr>
+
+{{status}}
+
+<table class="table table-light table-striped" style="color: black;">
+    <thead>
+        <tr>
+            <th>Barbeiro</th>
+            <th>Horários</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{itens}}
+    </tbody>
+</table>
+
+{{pagination}}
+
