@@ -4,7 +4,7 @@ Projeto de TCC
 Requisitos necessários:
 - Servidor Apache ou xampp
 - MySql
-- PHP 7 ou superio
+- PHP 7 ou superior
 - GIT
 
 Como Clonar o repositório
