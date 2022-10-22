@@ -29,7 +29,7 @@ Como Clonar o repositório
   
     git checkout meu_nome
 
-5° - Acesse a URL do site no navegador por meio do link: localhost/Projeto-barbearia/
+5° - Acesse a URL do site no navegador por meio do link: localhost/barbearia/
 
 
 PRONTO, sistema funcionando!!!
@@ -37,3 +37,7 @@ PRONTO, sistema funcionando!!!
 Script Banco de Dados
 
 Irei postar posteriormente
+
+
+#PADRÃO DE TESTE NO CÓDIGO
+#echo  "<pre>"; print_r(<valor>);echo "</pre>"; exit;
