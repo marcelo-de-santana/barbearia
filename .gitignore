@@ -1,6 +1,6 @@
 #environment
 .env
 #xampp simbólico
-xampp
+./xampp
 #Documentação do Banco
 projeto-barbearia.sql
