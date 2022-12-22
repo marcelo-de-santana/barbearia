@@ -1,43 +1,41 @@
-# Projeto-barbearia
-Projeto de TCC
+# Projeto Agendamento Barbearia WEB
 
-Acesso a Documentação do Software em: https://1drv.ms/w/s!ArAfRrX9CopBgdIX3EWMeKcn0X_sbw?e=gw6Z1R
+Acesse a [Documentação do Software](https://1drv.ms/w/s!ArAfRrX9CopBgdIX3EWMeKcn0X_sbw?e=gw6Z1R) para ver detalhes sobre as regras de negócio.
 
-Requisitos necessários:
-- Servidor Apache ou xampp
-- MySql
-- PHP 7 ou superior
-- GIT
+### Ambiente de desenvolvimento
+- [PHP 7](https://www.php.net/downloads.php) ou superior
+- Servidor Apache ou [Xampp](https://www.apachefriends.org/download.html)
+- [GIT](https://git-scm.com/downloads)
 
-Como Clonar o repositório
+### Dependências
+- Composer
+- MySQL
 
-1° - Entre na da pasta "/www/html/(APACHE)" ou "/htdocs(XAMPP)" via terminal ou prompt
+### Como Iniciar o Serviço?
 
-2° - Faça a configuração do seu usuário GIT:
+Abra a pasta de arquivos do servidor.
+    
+#### Apache
+        cd ./www/html/
 
-    git config --global user.name "meu_usuario_git"
-  
-    git config --global user.email "meu_email_cadastrado"
-  
-3° - Clone o repositório:
-  
-    git clone https://github.com/marcelo-de-santana/Projeto-barbearia.git
+#### Xampp
+        cd ./htdocs
+        
+#### Clone o repositório:
+        git clone https://github.com/marcelo-de-santana/Projeto-barbearia.git
 
-4° - Crie uma branch local:
-  
-    git branch meu_nome
-  
-    git checkout meu_nome
+### Inicie o servidor
+#### Ubuntu
+        sudo systemctl start service
 
-5° - Acesse a URL do site no navegador por meio do link: localhost/barbearia/
+#### Windows
+        C:\xampp\xampp-control.exe
 
+### Acesso Usuários
+        www.localhost:8080/barbearia
 
-PRONTO, sistema funcionando!!!
+### Acesso Admin
+        www.localhost:8080/barbearia/admin
 
-Script Banco de Dados
-
-Irei postar posteriormente
-
-
-#PADRÃO DE TESTE NO CÓDIGO
-#echo  "<pre>"; print_r(<valor>);echo "</pre>"; exit;
+### Sobre
+Website desenvolvido na disciplina: **Projeto Integrado de Sistemas de Informação para Negócios**.
